@@ -36,4 +36,23 @@ h1 .sticky  {
 }
 
 
+/* #cv {
+   
+    position: sticky;
+    height: 100vh;
+  }
+
+  
+
+#cv { 
+    display:none;
+}
+
+
+
+
+#cv:target{
+    display: grid;
+}
+ */
 
