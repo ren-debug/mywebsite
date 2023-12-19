@@ -1,0 +1,506 @@
+html {
+ 
+
+    color: #a6a6a6;
+    font-family: 'Switzer';
+    text-align: justify;
+    scroll-behavior: smooth;
+    
+}
+
+
+
+#about {
+    height: 100vh;
+  background-color: white; 
+    margin: 0px;
+}
+
+#work {
+    height: 100vh;
+    background-color: #212121;
+
+
+}
+
+#cv {
+    height: 100vh;
+    background-color: #212121;
+
+}
+
+
+
+
+/* #work,
+#cv {
+    background-color: #212121;
+}  */
+
+
+
+/* BOX-SIZING */
+
+/* html {
+    box-sizing: border-box;
+  }
+
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+
+  .box {
+    box-sizing: border-box;
+  } */
+
+
+
+
+
+/* HEADER */
+ 
+header {
+    position: fixed;
+    z-index: 1;
+    border-top: 6px solid #a6a6a6db;
+height: 60px;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: calc(100% - 6px);
+    background-color: transparent; 
+   border-bottom: 0.5px solid #b3b3b35d;  
+   /* backdrop-filter: blur(5px); */
+
+ 
+   
+
+}
+
+
+header * {
+ 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0;
+    width: fit-content;
+
+
+
+
+}
+
+
+
+
+.nav {
+    float: left;
+    
+}
+
+
+.nav a,
+.nav_2 a {
+    padding-top: 10px;
+    justify-content: space-between;
+    font-size: .76rem;
+    letter-spacing: 0.2px;
+    z-index: 1;
+    opacity: 1;
+
+}
+
+
+
+.nav a:hover,
+.nav_2 a:hover {
+
+    opacity: 0.6;
+
+}
+
+
+.nav_2 {
+    float: right;
+    
+
+}
+
+
+
+.nav i {
+    font-size: 1.1rem;
+    padding: 0px 40px 0px 40px;
+
+
+}
+
+.cont i {
+    font-size: 1.1rem;
+    padding: 0px 40px 0px 40px;
+
+}
+
+
+
+
+
+
+footer {
+    position: fixed;
+    height: 36px;
+padding: 0px 0px 14px 0px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  
+    width: calc(100% - 6px);
+
+    border-top: 0.5px solid #b3b3b35d; 
+   /* backdrop-filter: blur(5px);  */
+   border-bottom: 6px solid #a6a6a6;
+
+
+
+
+}
+
+
+footer * {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+
+
+
+}
+
+
+.footer a {
+    justify-content: space-between;
+    font-size: .65rem;
+
+}
+
+
+
+
+.footer_2 ul li i {
+    font-size: 1.1rem;
+    padding-left: 40px;
+padding-top: 5px;
+}
+
+
+.footer_2 {
+    float: right;
+    margin-right: 40px;
+
+}
+
+
+.footer ul {
+    padding-left: 0%;
+
+}
+
+.footer ul li {
+    padding-left: 0%;
+    padding-right: 40px;
+
+}
+
+
+.footer {
+    float: left;
+    margin-left: 40px;
+
+}
+
+
+
+.footer i {
+    font-size: 1rem;
+
+}
+
+.links {
+    position: fixed;
+    top: 16%;
+}
+
+.links ul {
+  
+    margin-left: 0%;
+    padding-left: 0%;
+  }
+
+
+/* ARTICLE */
+
+/* article {
+    background-color: aquamarine;
+    padding: 0% 10%;
+
+
+}
+
+article h1 {
+    background-color:darkolivegreen;
+} */
+
+
+
+/* PRINT */
+
+/* 
+.print a {
+    font-family: 'Switzer', sans-serif;
+    font-size: 0.7rem;
+    line-height: 1.1rem;
+    font-weight: 200;
+    padding-top: 0px;
+
+} */
+
+
+/* 
+.print__client {
+    display: flex;
+    flex-direction: row wrap;
+    width: 80%;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-bottom: 10%;
+
+} */
+
+/* .print__main {
+    display: flex;
+    flex-direction: row wrap;
+    width: 80%;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-bottom: 10%;
+
+} */
+
+
+.print__numbers {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+   
+    
+
+} 
+
+
+ .print__numbers a {
+    padding-right: 20px;
+    padding-top: 10px;
+    letter-spacing: 1.5px;
+} 
+
+
+
+
+/* ASIDE */
+
+aside {
+    background-color: #3e8e41;
+    width: 0%;
+
+
+}
+
+.sidebar {
+    background: rgba(26, 26, 26, 0.924);
+    backdrop-filter: blur(10px);
+    width: 0;
+    height: 100vh;
+    position: fixed;
+    z-index: 99;
+
+    right: 8px;
+    left: 8px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    text-align: center;
+
+}
+
+.sidebar a {
+    font-size: 4rem;
+    letter-spacing: -5px;
+    font-weight: 100;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    z-index: 1;
+    right: 4%;
+    top: 45.5vh;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 300;
+    background-color: transparent;
+    /* height: 10px;
+    width: 10px; */
+    color: #b3b3b3;
+}
+
+.openbtn {
+    font-size: 2rem;
+padding: 0%;
+margin: 0%;
+    z-index: 1;
+    font-weight: 100;
+    cursor: pointer;
+    background-color: transparent;
+    color: #b3b3b3;
+    border: none;
+    position: fixed;
+ 
+    right: 42px;
+    top: 43vh;
+}
+
+.sidebar button {
+    margin-top: 3%;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    width: 170px;
+    height: 50px;
+    padding: 0px 0px 0px 0px;
+}
+
+.sidebar button a #main {
+    transition: margin-left .5s;
+    padding: 0px;
+}
+
+
+/* 
+.gradient {
+
+    background-image: linear-gradient(180deg, rgb(255, 255, 255), rgba(255, 255, 255, 0.151));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+
+} */
+
+
+
+
+.parallax {
+    /* The image used */
+    background-image: url("../assets/img/bg.jpg");
+
+    /* Set a specific height */
+    min-height: 1440px;
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    /* body {
+        background-color: #212121;
+        color: #b3b3b3;
+        padding: 0 80px;
+      
+    } */
+}
+
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    /* body {
+        background-color: #212121;
+        color: #b3b3b3;
+        padding: 0 60px;
+    
+    } */
+}
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+    /* body {
+        background-color: #212121;
+        color: #b3b3b3;
+        padding: 0 60px;
+    
+      
+    }
+     */
+}
+
+
+/* /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    /* body {
+        background-color: #212121;
+        color: #b3b3b3;
+        padding: 0 40px;
+    
+      
+    } */
+
+
+
+}
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    body {
+        background-color: #212121;
+        color: #b3b3b3;
+        padding: 0 20px;
+
+
+    }
+
+}

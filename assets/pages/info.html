@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>info</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/typography.css">
+    <link rel="stylesheet" href="./CSS/grids.css">
+    <link rel="stylesheet" href="./CSS/flexbox.css">
+    <link rel="stylesheet" href="./CSS/info.css">
+    <link href="https://fonts.cdnfonts.com/css/switzer" rel="stylesheet" />
+    <!-- <link href="https://db.onlinewebfonts.com/c/fedc4d4a8801488c6c47b5521bbba331?family=Mrs+Eaves+Lining+OT" 
+       rel="stylesheet"> -->
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="dropdown">
+            <a href="./index.html" class="home"><i class="fi fi-rr-home"></i></a>
+
+            <a href="#">About</a>
+            <button class="dropbtn">Work&nbsp; &nbsp;<i class="fi fi-rr-angle-small-down"></i></button>
+            <a href="#">Experience</a>
+
+            <a href="#" class="contact"><i class="fi fi-rr-envelope"></i></a>
+
+            <div class="dropdown-content">
+                <a href="#">01.&nbsp; &nbsp;Print Design</a>
+                <a href="#">02.&nbsp; &nbsp;Web Design&nbsp; &nbsp; • &nbsp; &nbsp; Dev</a>
+                <a href="#">01.&nbsp; &nbsp;Digital Design</a>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <article class="box">
+            <h1>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+
+            </h1>
+        </article>
+
+       
+
+        <section style="padding-top: 200px;" class="grid">
+            <div>item 1</div>
+            <div>item 2</div>
+            <div>item 3</div>
+            <div>item 4</div>          
+        </section>
+
+
+
+    
+        <section style="padding-top: 200px;" class="flexbox">
+            <div class="container">
+              <div>1 <br>flex: 0 1 auto</div>
+              <div>2 <br>flex: 0 1 auto</div>
+              <div>3 <br>flex: 0 1 auto</div>
+              <div>4 <br>flex: 0 1 auto</div>
+            </div>
+        
+            <p><code>flex: 1</code> is the same as <code>flex: 1 1 0%</code></p>
+            <div class="gallery1 container">
+              <div>1 <br>flex: 1</div>
+              <div>2 <br>flex: 1</div>
+              <div>3 <br>flex: 1</div>
+              <div>4 <br>flex: 1</div>
+              <div>5 <br>flex: 1</div>
+              <div>6 <br>flex: 1</div>
+              <div>7 <br>flex: 1</div>
+              <div>8 <br>flex: 1</div>
+            </div>
+        
+            <p>Flex items stick to 25% width (works due to <code>flex-wrap: nowrap</code>, thus only for one row)</p>
+            <div class="gallery2 container">
+              <div>1 <br>flex: 1 1 25%</div>
+              <div>2 <br>flex: 1 1 25%</div>
+              <div>3 <br>flex: 1 1 25%</div>
+              <div>4 <br>flex: 1 1 25%</div>
+            </div>
+        
+            <p>Example from <code>flex-basis</code> section, now combined with other properties</p>
+            <div class="gallery3 container">
+              <div>1 <br>flex: 0 1 25%</div>
+              <div>2 <br>flex: 1 1 auto</div>
+              <div>3 <br>flex: 1 1 auto</div>
+              <div>4 <br>flex: 0 1 50%</div>
+            </div>
+        </section>
+        
+        
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <!-- <div class= " container ">
+        <div > Item 1 </div >
+        <div > Item 2 </div >
+        <div > Item 3 </div >
+        <div > Item 4 </div >
+        <div > Item 5 </div >
+        <div > Item 6 </div >
+        <div > Item 7 </div >
+        <div > Item 8 </div >
+        </div > -->
+        
+        
+
+
+
+        <aside>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+
+                <div class="about"><a href="./about.html">about</a></div>
+                <div class="work"><a href="./work.html">work</a></div>
+                <div class="exp"><a href="./experience.html">experience</a></div>
+
+                <button><a href="mailto:irene.spalletti@gmail.com">get in touch!</a></button>
+            </div>
+
+            <button class="openbtn" onclick="openNav()">☰</button>
+            <div id="main"></div>
+
+            <script>
+                function openNav() {
+                    document.getElementById("mySidebar").style.width = "100%";
+                    document.getElementById("main").style.marginLeft = "250px";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidebar").style.width = "0";
+                    document.getElementById("main").style.marginLeft = "0";
+                }
+            </script>
+
+        </aside>
+
+  
+
+    <footer>
+        <div class="legal">
+
+            <a href="#">© 2023 — copyright</a>
+            <a href="#">privacy</a>
+            <a href="#">terms</a>
+
+        </div>
+
+        <div class="social">
+
+            <a href="#"><i class="fi fi-brands-instagram"></i></a>
+            <a href="#"><i class="fi fi-brands-github"></i></a>
+            <a href="#"><i class="fi fi-brands-linkedin"></i></a>
+            <a href="#"><i class="fi fi-rr-envelope"></i></a>
+
+            <!-- <a href="#"><i class="fi fi-br-at"></i></a> -->
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
