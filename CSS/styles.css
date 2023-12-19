@@ -67,7 +67,7 @@ header {
     position: fixed;
     z-index: 1;
     border-top: 6px solid #a6a6a6db;
-
+height: 60px;
     top: 0;
     right: 0;
     left: 0;
@@ -83,7 +83,7 @@ header {
 
 
 header * {
-    padding: 40px 0px 0px 0px;
+ 
 
     display: flex;
     flex-direction: row;
@@ -107,6 +107,7 @@ header * {
 
 .nav a,
 .nav_2 a {
+    padding-top: 10px;
     justify-content: space-between;
     font-size: .76rem;
     letter-spacing: 0.2px;
