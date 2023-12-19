@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <!-- <link rel="stylesheet" href="./CSS/styles_2.css"> -->
+    <link rel="stylesheet" href="./CSS/scroll.css">
+
+    <link rel="stylesheet" href="./CSS/typography.css">
+    <link rel="stylesheet" href="./CSS/grids.css">
+    <link rel="stylesheet" href="./CSS/experience.css">
+    <link href="https://fonts.cdnfonts.com/css/switzer" rel="stylesheet"/>
+
+    <!-- <link href="https://db.onlinewebfonts.com/c/fedc4d4a8801488c6c47b5521bbba331?family=Mrs+Eaves+Lining+OT" 
+       rel="stylesheet"> -->
+
+
+
+<style>
+
+html {
+     border-right: 6px solid white; 
+     border-left: 6px  solid white; 
+
+}
+
+header {
+    border-top:  6px solid white;
+}
+
+footer {
+    border-bottom:  6px  solid white;
+}
+
+
+body {
+    background-color: #212121;
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+
+    
+<header>
+        <div class="nav">
+            <ul>
+                <li> <a href="./index.html" class="home"><i class="fi fi-rr-home"></i></a></li>
+                <li> <a style="padding-right: 40px;" href="./about.html" class="about">about</a></li>
+                <li> <a style="padding-right: 40px;" href="./work.html">work</a></li>
+                <li> <a href="./cv.html" class="exp">experience</a></li>
+
+            </ul>
+        </div>
+
+        <div class="nav_2">
+            <ul>
+                <li> <a style="padding-left: 40px;" href="./project.html">01. print design</a></li>
+                <li><a style="padding-left: 40px;" href="./project.html">02. web design</a></li>
+                <li><a style="padding-left: 40px;" href="./project.html">03. digital design</a></li>
+                <li> <a href="./contact.html" class="cont"><i class="fi fi-rr-envelope"></i></a></li>
+            </ul>
+        </div> 
+
+</header> 
+
+<menu class="links">
+        
+    <ul>
+    <h1>
+        <li><a href="./about.html">about</a></li>
+        <li>work</li>
+        <li><a href="./cv.html">experience</a></li>
+    </h1>
+    </ul>
+
+</menu>
+
+<aside>
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <div class="about"><a href="./about.html">about</a></div>
+    <div class="work"><a href="./work.html">work</a></div>
+    <div class="exp_1"><a href="./experience.html">experience</a></div>
+    
+    <button><a href="mailto:irene.spalletti@gmail.com">get in touch!</a></button>
+</div>
+    <button class="openbtn" onclick="openNav()">☰</button>
+    <div id="main"></div>
+</aside>
+    
+    <script>
+    function openNav() {
+    document.getElementById("mySidebar").style.width = "100%";
+    document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    }
+    </script>
+    
+    <div id="main"></div>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
+
+
+    <div class="grid_2 page">
+
+        <div class="box_1">
+            <h4><a href="./print/html">print design</a>
+                <hr>
+            </h4>
+            <div class="print__numbers">
+                <a href="#">
+                    <h6>Projects</h6>
+                </a>
+                <a href="#">01</a>
+                <a href="#">02</a>
+                <a href="#">03</a>
+                <a href="#">04</a>
+                <a href="#">05</a>
+            </div>
+
+        </div>
+        <div class="box_2">
+            <h4><a href="./web/html">web design</a>
+                <hr>
+            </h4>
+            <div class="print__numbers">
+                <a href="#">
+                    <h6>Projects</h6>
+                </a>
+                <a href="#">01</a>
+                <a href="#">02</a>
+                <a href="#">03</a>
+                <a href="#">04</a>
+                <a href="#">05</a>
+            </div>
+        </div>
+
+        <div class="box_3">
+            <h4><a href="./digital/html">digital design</a>
+                <hr>
+            </h4>
+            <div class="print__numbers">
+                <a href="#">
+                    <h6>Projects</h6>
+                </a>
+                <a href="#">01</a>
+                <a href="#">02</a>
+                <a href="#">03</a>
+                <a href="#">04</a>
+                <a href="#">05</a>
+            </div>
+
+        </div>
+    </div>
+    
+
+
+    <footer>
+        <div class="footer">
+            <ul>
+                <li><a href="#">© 2023 — copyright</a></li>
+                <li><a href="#">privacy</a></li>
+                <li><a href="#">terms</a></li>
+
+            </ul>
+        </div>
+
+        <div class="footer_2">
+            <ul>
+                <li><a href="#"><i class="fi fi-brands-instagram"></i></a></li>
+                <li><a href="#"><i class="fi fi-brands-github"></i></a></li>
+                <li><a href="#"><i class="fi fi-brands-linkedin"></i></a></li>
+                <li> <a href="#"><i class="fi fi-rr-envelope"></i></a></li>
+            </ul>
+        </div>   
+    </footer> 
+
+
+
+</body>
+</html>
