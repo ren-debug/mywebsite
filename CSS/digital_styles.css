@@ -151,6 +151,20 @@ p {
   }
   
 
+
+
+  #poker  {
+    display: grid;
+    grid-template-columns: repeat(12, [col] 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin: 80px 45px 0px 100px;
+    scroll-behavior: smooth;    /* <----- THE SECRET ---- */
+  
+  }
+
+
+  
 #poker {
    
   position: sticky;
@@ -209,15 +223,15 @@ p {
   
   }  
 
-  #poker  {
-    display: grid;
-    grid-template-columns: repeat(12, [col] 1fr);
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
-    margin: 80px 45px 0px 100px;
-    scroll-behavior: smooth;    /* <----- THE SECRET ---- */
-  
-  }
+
+
+
+
+
+
+
+
+
 
   #rugby  {
     display: grid;
