@@ -126,7 +126,7 @@ ul li {
 /* HR */
 
 hr {
-    border: 0.4px solid rgba(90, 90, 90, 0.432);
+    border: 0.4px solid rgba(100, 100, 100, 0.24);
     margin-bottom: 5%;
 }
 
@@ -142,6 +142,12 @@ hr {
     font-size: 1.2rem;
 
 }
+
+
+
+
+
+
 
 .icons i {
     font-size: 1.4rem;
