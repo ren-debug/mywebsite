@@ -1,4 +1,4 @@
-@import url('switzer.css');
+
 @import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css');
 @import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
 @import url("https://fonts.googleapis.com/css2?family=Orbit&display=swap");
@@ -7,29 +7,6 @@
 @import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
 @import url('https://db.onlinewebfonts.com/c/fedc4d4a8801488c6c47b5521bbba331?family=Mrs+Eaves+Lining+OT');
 @import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-straight/css/uicons-solid-straight.css');
-
-
-@font-face {
-    font-family: '_ramashintaregular';
-    src: url('ramashinta-regular-webfont.woff2') format('woff2'),
-         url('ramashinta-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: '_ramashintaregular';
-    src: url('ramashinta-regular-webfont.woff2') format('woff2'),
-         url('ramashinta-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 
 
 
@@ -161,6 +138,10 @@ hr {
 
 }
 
+.language ul li i {
+    font-size: 1.2rem;
+
+}
 
 .icons i {
     font-size: 1.4rem;
@@ -174,7 +155,10 @@ hr {
     opacity: 1;
 }
 
-
+ul li  i.fi-brands-github {
+    font-size: 1.4rem;
+  
+}
 
 .about ul {
     display: flex;
