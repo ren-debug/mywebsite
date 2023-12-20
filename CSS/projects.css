@@ -132,18 +132,18 @@ hr {
 
 
 
-
+/* 
 .print__numbers {
   display: grid;
   grid-column: col 12 / span 1;
-  grid-row: row 1;
-  padding-top: 5vh;
+
+ 
   /* display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: flex-start; */
  
-}
+
 
 
   
@@ -173,7 +173,7 @@ hr {
 
 
 
-.numbers a, .number a, .tag a {
+.print_numbers a, .number a, .tag a {
 
 padding-right: 30px;
 padding-bottom: 0px;

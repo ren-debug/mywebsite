@@ -27,7 +27,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 5%;
+  margin-top: 0%;
   padding-top: 0%;
   margin-left: 0%;
   padding-left: 0%;
@@ -143,16 +143,21 @@
 #about .languages {
 
   grid-column: col 1 / span 3;
-  grid-row: row 5;
+
   padding-right: 0px;
+  grid-row: row 4;
+  height: 21vh;
 
 }
 
 
 #about .language {
+
   grid-column: col 4 / span 3;
-  grid-row: row 5;
-  padding-bottom: 6px;
+  grid-row: row 4;
+  height: 21vh;
+  padding-bottom: 0px;
+
 
 
 
@@ -180,25 +185,31 @@
 
 .grid_2 .box_1 {
   grid-column: col 1 / span 4;
-  grid-row: row 6;
+  grid-row: row 8;
+  height: 21vh;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
 
 }
 
 
 .grid_2 .box_2 {
   grid-column: col 5 / span 4;
-  grid-row: row 6;
-
+  grid-row: row 8;
+  height: 21vh;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
 
 }
 
 
 
 .grid_2 .box_3  {
+ 
     grid-column: col 9 / span 4;
-    grid-row: row 6;
-    padding-bottom: 24px;
-
+    grid-row: row 8;
+    height: 21vh;
+    margin-bottom: 6px;
     
 
 }
@@ -242,7 +253,8 @@ margin: 0%;
 #cv .languages {
 
   grid-column: col 1 / span 3;
-  grid-row: row 4;
+  grid-row: row 3;
+  height: 21vh;
 
 
 }
@@ -250,9 +262,12 @@ margin: 0%;
 
 #cv .language {
 
+ 
+
   grid-column: col 4 / span 3;
-  grid-row: row 4;
-  padding-bottom: 20px;
+  grid-row: row 3;
+  height: 21vh;
+  padding-bottom: 6px;
 
 
 }
