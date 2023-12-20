@@ -250,6 +250,38 @@ padding-top: 5px;
     font-size: 1.1rem;
     
 }
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: none;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: transparent;
+    color: #a6a6a6;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0px 0;
+    font-size: .7rem;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+
 /* ARTICLE */
 
 /* article {
