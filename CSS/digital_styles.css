@@ -1,4 +1,3 @@
-@import url('switzer.css');
 @import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css');
 @import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
 @import url("https://fonts.googleapis.com/css2?family=Orbit&display=swap");
@@ -34,8 +33,8 @@ h1 {
 
 
 h2 {
-    font-family: '_ramashintaregular';
-    font-size: 5.5rem;
+  
+    font-size: 3rem;
     line-height: 3rem;
     letter-spacing: -2px;
     font-weight: 100;
@@ -57,7 +56,7 @@ text-transform: uppercase;}
 
 h4 {
     font-size: 0.9rem;
-    line-height: 5rem;
+    line-height: 2rem;
     letter-spacing: 1px;
     font-weight: 200;
     color: #a6a6a6;
@@ -117,3 +116,183 @@ p {
     display: grid;
 
 } 
+
+
+
+
+#YSL  {
+    display: grid;
+    grid-template-columns: repeat(12, [col] 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin: 80px 45px 0px 100px;
+    scroll-behavior: smooth;    /* <----- THE SECRET ---- */
+  
+  }
+  
+  .text {
+    grid-column: col 6 / span 8;
+    grid-row: row 2;
+  
+  }
+  
+  
+  
+  .YSL {
+    grid-column: col 1 / span 3;
+    grid-row: row 1;
+  
+  }
+  
+  .YSL_NL {
+    grid-column: col 6 / span 8;
+    grid-row: row 8;
+  
+  }
+  
+  
+  
+  #pokerstars  {
+    display: grid;
+    grid-template-columns: repeat(12, [col] 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin: 80px 45px 0px 100px;
+    scroll-behavior: smooth;    /* <----- THE SECRET ---- */
+  
+  }
+  
+  #pokerstars .text {
+    grid-column: col 6 / span 8;
+    grid-row: row 7;
+  
+  }
+  
+  
+  
+  .poker_1 {
+    display: grid;
+    grid-column: col 1 / span 6;
+    grid-row: row 7;
+    padding-bottom: 0px;
+  
+  
+  }  
+  
+  .poker_1_mob {
+    display: grid;
+    grid-column: col 9 / span 2;
+    grid-row: row 16;
+    padding-bottom: 0px;
+  
+  
+  }  
+
+
+#poker_p {
+   
+    position: sticky;
+    height: 100vh;
+}
+
+
+
+
+#poker_p {
+    display:none;
+} 
+
+
+
+#poker_p:target{
+    display: grid;
+
+
+} 
+
+
+  
+#rugby  {
+    display: grid;
+    grid-template-columns: repeat(12, [col] 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin: 80px 45px 0px 100px;
+    scroll-behavior: smooth;    /* <----- THE SECRET ---- */
+  
+  }
+  
+  #rubgy .text {
+    grid-column: col 6 / span 5;
+    grid-row: row 2;
+  
+  }
+  
+   
+  .RFU_1 {
+    display: grid;
+    grid-column: col 1 / span 5;
+    grid-row: row 1;
+    padding-bottom: 0px;
+  
+  
+  }  
+  
+  .RFU_2 {
+    display: grid;
+    grid-column: col 6 / span 8;
+    grid-row: row 7;
+    padding-bottom: 0px;
+  
+  
+  }  
+  
+  .RFU_3 {
+    display: grid;
+    grid-column: col 1 / span 4;
+    grid-row: row 10;
+    padding-bottom: 0px;
+  
+  
+  }  
+  
+
+#rugby_p {
+   
+    position: sticky;
+    height: 100vh;
+}
+
+
+
+
+#rugby_p {
+    display:none;
+} 
+
+
+
+#rugby_p:target{
+    display: grid;
+
+
+} 
+
+
+
+
+  
+/*   
+  .three {
+    display: grid;
+    grid-column: col 1 / span 12;
+    grid-row: row 4;
+    padding-top: 0;
+  } */
+  
+  
+ 
+  
+  
+  
+  

@@ -9,6 +9,187 @@ body {
 
 }
 
+ 
+header {
+  position: fixed;
+  z-index: 1;
+height: 60px;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: calc(100% - 6px);
+  background-color: #fafafa4e;
+  border-bottom: 0.5px solid #b3b3b35d; 
+ backdrop-filter: blur(5px);  
+ border-top: 0px;
+
+
+ 
+
+}
+
+
+header * {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0;
+  width: fit-content;
+
+
+
+
+}
+
+
+
+
+.nav {
+  float: left;
+  
+}
+
+
+.nav a,
+.nav_2 a {
+  padding-top: 10px;
+  justify-content: space-between;
+  font-size: .76rem;
+  letter-spacing: 0.2px;
+  z-index: 1;
+  opacity: 1;
+
+}
+
+
+
+.nav a:hover,
+.nav_2 a:hover {
+
+  opacity: 0.6;
+
+}
+
+
+.nav_2 {
+  float: right;
+  
+
+}
+
+
+
+.nav i {
+  font-size: 1.1rem;
+  padding: 0px 40px 0px 40px;
+
+
+}
+
+.cont i {
+  font-size: 1.1rem;
+  padding: 0px 40px 0px 40px;
+
+}
+
+
+
+
+
+
+footer {
+  position: fixed;
+  height: 36px;
+padding: 0px 0px 14px 0px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  width: calc(100% - 6px);
+  background-color: #fafafa4e;
+  border-top: 0.5px solid #b3b3b35d; 
+ backdrop-filter: blur(5px);  
+ border-bottom: 0px;
+
+
+
+
+}
+
+
+footer * {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+
+
+
+}
+
+
+.footer a {
+  justify-content: space-between;
+  font-size: .65rem;
+
+}
+
+
+
+
+.footer_2 ul li i {
+  font-size: 1.1rem;
+  padding-left: 40px;
+padding-top: 5px;
+}
+
+
+.footer_2 {
+  float: right;
+  margin-right: 40px;
+
+}
+
+
+.footer ul {
+  padding-left: 0%;
+
+}
+
+.footer ul li {
+  padding-left: 0%;
+  padding-right: 40px;
+
+}
+
+
+.footer {
+  float: left;
+  margin-left: 40px;
+
+}
+
+
+
+.footer i {
+  font-size: 1rem;
+
+}
+
+.links {
+  position: fixed;
+  top: 16%;
+}
+
+.links ul {
+
+  margin-left: 0%;
+  padding-left: 0%;
+}
+
+
+
 
 /* HR */
 
@@ -29,104 +210,6 @@ hr {
   
 
 } */
-
-
-
-
-
-#YSL  {
-  display: grid;
-  grid-template-columns: repeat(12, [col] 1fr);
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
-  margin: 80px 120px 0px 120px;
-  scroll-behavior: smooth;    /* <----- THE SECRET ---- */
-
-}
-
-.text {
-  grid-column: col 6 / span 8;
-  grid-row: row 1;
-
-}
-
-
-
-.YSL {
-  grid-column: col 1 / span 3;
-  grid-row: row 1;
-
-}
-
-.YSL_NL {
-  grid-column: col 6 / span 8;
-  grid-row: row 8;
-
-}
-
-
-
-
-
-
-
-.poker_1 {
-  display: grid;
-  grid-column: col 1 / span 6;
-  grid-row: row 7;
-  padding-bottom: 0px;
-
-
-}  
-
-.poker_1_mob {
-  display: grid;
-  grid-column: col 9 / span 2;
-  grid-row: row 16;
-  padding-bottom: 0px;
-
-
-}  
-
-
-
-
-.three {
-  display: grid;
-  grid-column: col 1 / span 12;
-  grid-row: row 4;
-  padding-top: 0;
-}
-
-
-
-.RFU_1 {
-  display: grid;
-  grid-column: col 8 / span 5;
-  grid-row: row 10;
-  padding-bottom: 0px;
-
-
-}  
-
-.RFU_2 {
-  display: grid;
-  grid-column: col 1 / span 6;
-  grid-row: row 13;
-  padding-bottom: 0px;
-
-
-}  
-
-.RFU_3 {
-  display: grid;
-  grid-column: col 9 / span 4;
-  grid-row: row 16;
-  padding-bottom: 0px;
-
-
-}  
-
 
 
 
