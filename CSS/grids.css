@@ -1,27 +1,3 @@
-
- /* .grid > * {
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.15);
-    border: 1px solid #fff;
-    padding: 0px;
-    height: fit-content;
-
-
-  }   */
-   
-  /* .grid a {
-      display: block;
-
-  } */
-  
-
- /* .wrapper {
-  background-color: #212121;
-  
- }  */
-
-
-
 .languages ul, .language ul {
 
   display: flex;
@@ -36,94 +12,13 @@
 } 
 
 
-
-
 .language i {
-
- 
   font-size: 1.2rem;
   color: #a6a6a6;
-  
   padding-right: 0px;
   padding-bottom: 0px;
  
 }
-
-
-
-
-/*   
-
-.grid__item {
-  background: #000;
-  padding: 1em;
-  font-size: 14px;
-
-}
-
-
-.grid__item img {
-   width: 100%;
-
-} */
-
-
-/* .grid_1 {
-  display: grid;
-  height: 100vh;
-  grid-template-columns: repeat(12, [col] 1fr);
-  grid-column-gap: 3em;
-  padding: 0px 40px 0px 40px;
-  margin: 0;
-} */
-
-/* 
-#about {
-  padding-left: 40px;
-  padding-right: 100px;
-  margin-bottom: 0;
-
-} */
-
-
-
-/* 
-
-
-
-#about .scroll {
-  grid-column: col 1 / span 4;
-  grid-row: row 1;
-  margin: 0vh 0vh;
-
-
- 
-
-  
-} */
-
-
-/* 
-#about .languages {
-   grid-column: col 1 / span 3;
-   grid-row: row 4;
-   padding-top: 0px;
-
-} */
-
-
-/* 
-
-#about .language {
-
-  grid-column: col 4 / span 3;
-  grid-row: row 4;
-
-
-
-} */
-
-
 
 
 
@@ -141,9 +36,7 @@
 
 
 #about .languages {
-
   grid-column: col 1 / span 3;
-
   padding-right: 0px;
   grid-row: row 4;
   height: 21vh;
@@ -152,16 +45,10 @@
 
 
 #about .language {
-
   grid-column: col 4 / span 3;
   grid-row: row 4;
   height: 21vh;
   padding-bottom: 0px;
-
-
-
-
-
 
 }
 
@@ -171,6 +58,8 @@
   background-color: #212121;
 }
 
+
+
 .grid_2 {
   display: grid;
   height: 100vh;
@@ -179,8 +68,6 @@
   padding: 0px 40px 0px 40px;
   margin: 0;
 }
-
-
 
 
 .grid_2 .box_1 {
@@ -205,27 +92,18 @@
 
 
 .grid_2 .box_3  {
- 
-    grid-column: col 9 / span 4;
-    grid-row: row 8;
-    height: 21vh;
-    margin-bottom: 4px;
+  grid-column: col 9 / span 4;
+  grid-row: row 8;
+  height: 21vh;
+  margin-bottom: 4px;
     
 
 }
 
 
 
-
-
-
-
-
-
-
 #cv {
   display: grid;
-  
 
 }
 
@@ -235,7 +113,7 @@
   grid-template-columns: repeat(12, [col] 1fr);
   grid-column-gap: 3em;
   padding: 0px 40px 0px 40px;
-margin: 0%;
+  margin: 0%;
 
 }
 
@@ -251,7 +129,6 @@ margin: 0%;
 
 
 #cv .languages {
-
   grid-column: col 1 / span 3;
   grid-row: row 3;
   height: 21vh;
@@ -261,9 +138,6 @@ margin: 0%;
 
 
 #cv .language {
-
- 
-
   grid-column: col 4 / span 3;
   grid-row: row 3;
   height: 21vh;
@@ -274,23 +148,6 @@ margin: 0%;
 
 
 
-
- /* #cv .about {
-  
-   grid-column: col 4 / span 3;
-   grid-row: row 8; 
-   padding-bottom: 0px;
- }
- 
- .about i {
- 
-   font-size: 1.2rem;
-   color: white;
-   
-   padding-right: 40px;
-   padding-bottom: 0px;
-  
- } */
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -309,8 +166,6 @@ margin: 0%;
 
 
 }
-
-
 
 
 
